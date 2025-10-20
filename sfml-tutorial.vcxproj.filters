@@ -42,29 +42,8 @@
     <Filter Include="program\Core\Time">
       <UniqueIdentifier>{ca70afaf-02bb-4991-9d1a-14ae4926a093}</UniqueIdentifier>
     </Filter>
-    <Filter Include="program\Ecs\GameObject">
-      <UniqueIdentifier>{9b34dfdf-5b6d-4559-8003-78bfaede5a11}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="program\Ecs\Component">
-      <UniqueIdentifier>{609c57ab-aca6-4685-9d51-fa8056aca5a8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="program\Core\DebugUI\tabs">
       <UniqueIdentifier>{a9df746e-4b72-4dce-b3bc-dc5c4c8297f3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="program\Ecs\Tag">
-      <UniqueIdentifier>{71fb7b89-15a7-453c-8b27-eabc2bc2186a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="program\Ecs\Component\base">
-      <UniqueIdentifier>{c5c2bb9d-30cd-4bd5-8cf4-0e48e34093b3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="program\Ecs\Component\transform">
-      <UniqueIdentifier>{755b4ad3-6e2b-426f-b462-b746dc72bbcd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="program\Ecs\Component\Canvas">
-      <UniqueIdentifier>{2386a3cd-b064-4ebb-bb05-eaab0d86f5bd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="program\Ecs\Component\Canvas\Image">
-      <UniqueIdentifier>{94852982-a352-4c05-9b5b-c97929b05d72}</UniqueIdentifier>
     </Filter>
     <Filter Include="program\Core\Resource">
       <UniqueIdentifier>{b4cdba47-b24a-43e1-8445-d20d34ca7b90}</UniqueIdentifier>
@@ -75,17 +54,14 @@
     <Filter Include="program\Core\Database">
       <UniqueIdentifier>{68ef7aec-18bf-4a39-95c5-22689bd85f3d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="program\Ecs\Component\Rigidbody">
-      <UniqueIdentifier>{644a3b38-5827-4995-bdc9-c2bddcee6b40}</UniqueIdentifier>
-    </Filter>
     <Filter Include="program\Core\Anim2d">
       <UniqueIdentifier>{2c702c1d-d2e9-4413-948d-bb463f8a24e7}</UniqueIdentifier>
     </Filter>
     <Filter Include="program\Core\Logger">
       <UniqueIdentifier>{78f8d97c-724a-4b41-a484-6c780aba0721}</UniqueIdentifier>
     </Filter>
-    <Filter Include="program\Ecs\Component\Canvas\animation">
-      <UniqueIdentifier>{029b29ff-c296-4eff-abd1-d33d141c1f14}</UniqueIdentifier>
+    <Filter Include="program\Core\TagManager">
+      <UniqueIdentifier>{d18e14f2-4290-45e1-bf8a-6c8fbdcf3d74}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -113,44 +89,17 @@
     <ClCompile Include="program\SKFW\Debug\DebugUi.cpp">
       <Filter>program\Core\DebugUI</Filter>
     </ClCompile>
-    <ClCompile Include="program\SKFW\Ecs\GameObjectManager.cpp">
-      <Filter>program\Ecs\GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="program\SKFW\Ecs\TagManager.cpp">
-      <Filter>program\Ecs\Tag</Filter>
-    </ClCompile>
-    <ClCompile Include="program\SKFW\Ecs\system_Transform.cpp">
-      <Filter>program\Ecs\Component\transform</Filter>
-    </ClCompile>
-    <ClCompile Include="program\SKFW\Ecs\base_Drawable.cpp">
-      <Filter>program\Ecs\Component\base</Filter>
-    </ClCompile>
-    <ClCompile Include="program\SKFW\Ecs\system_Render.cpp">
-      <Filter>program\Ecs\Component\Canvas</Filter>
-    </ClCompile>
     <ClCompile Include="program\SKFW\Framework\TextureResource.cpp">
       <Filter>program\Core\Resource</Filter>
-    </ClCompile>
-    <ClCompile Include="program\SKFW\Ecs\comp_Image.cpp">
-      <Filter>program\Ecs\Component\Canvas\Image</Filter>
-    </ClCompile>
-    <ClCompile Include="program\SKFW\Ecs\comp_Transform.cpp">
-      <Filter>program\Ecs\Component\transform</Filter>
     </ClCompile>
     <ClCompile Include="program\SKFW\Framework\Database.cpp">
       <Filter>program\Core\Database</Filter>
     </ClCompile>
-    <ClCompile Include="program\SKFW\Ecs\comp_RigidBody.cpp">
-      <Filter>program\Ecs\Component\Rigidbody</Filter>
-    </ClCompile>
-    <ClCompile Include="program\SKFW\Ecs\system_RigidBody.cpp">
-      <Filter>program\Ecs\Component\Rigidbody</Filter>
-    </ClCompile>
     <ClCompile Include="program\SKFW\Framework\Anim2D.cpp">
-      <Filter>program\Core\Input</Filter>
+      <Filter>program\Core\Anim2d</Filter>
     </ClCompile>
-    <ClCompile Include="program\SKFW\Ecs\comp_Animation.cpp">
-      <Filter>program\Ecs\Component\Canvas\animation</Filter>
+    <ClCompile Include="program\SKFW\Framework\TagManager.cpp">
+      <Filter>program\Core\TagManager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -172,50 +121,14 @@
     <ClInclude Include="program\SKFW\Debug\DebugUi.hpp">
       <Filter>program\Core\DebugUI</Filter>
     </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\GameObject.hpp">
-      <Filter>program\Ecs\GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\GameObjectManager.hpp">
-      <Filter>program\Ecs\GameObject</Filter>
-    </ClInclude>
     <ClInclude Include="program\SKFW\Framework\ObjectPool.hpp">
       <Filter>program\Core\Utility</Filter>
     </ClInclude>
     <ClInclude Include="program\SKFW\Debug\debug_GameManager.hpp">
       <Filter>program\Core\DebugUI\tabs</Filter>
     </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\TagManager.hpp">
-      <Filter>program\Ecs\Tag</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Debug\debug_TagManager.hpp">
-      <Filter>program\Core\DebugUI\tabs</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Debug\debug_GameObjectManager.hpp">
-      <Filter>program\Core\DebugUI\tabs</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\base_component.hpp">
-      <Filter>program\Ecs\Component\base</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\comp_Transform.hpp">
-      <Filter>program\Ecs\Component\transform</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\system_Transform.hpp">
-      <Filter>program\Ecs\Component\transform</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\base_Monobehaviour.hpp">
-      <Filter>program\Ecs\Component\base</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\base_Drawable.hpp">
-      <Filter>program\Ecs\Component\base</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\system_Render.hpp">
-      <Filter>program\Ecs\Component\Canvas</Filter>
-    </ClInclude>
     <ClInclude Include="program\SKFW\Framework\TextureResource.hpp">
       <Filter>program\Core\Resource</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\comp_Image.hpp">
-      <Filter>program\Ecs\Component\Canvas\Image</Filter>
     </ClInclude>
     <ClInclude Include="program\SKFW\Framework\data_window.h">
       <Filter>program\Core\WindowData</Filter>
@@ -223,23 +136,20 @@
     <ClInclude Include="program\SKFW\Framework\Database.hpp">
       <Filter>program\Core\Database</Filter>
     </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\comp_RigidBody.hpp">
-      <Filter>program\Ecs\Component\Rigidbody</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\system_RigidBody.hpp">
-      <Filter>program\Ecs\Component\Rigidbody</Filter>
-    </ClInclude>
     <ClInclude Include="program\SKFW\Framework\Anim2D.hpp">
       <Filter>program\Core\Anim2d</Filter>
-    </ClInclude>
-    <ClInclude Include="program\SKFW\Ecs\comp_Animation.hpp">
-      <Filter>program\Ecs\Component\Canvas\animation</Filter>
     </ClInclude>
     <ClInclude Include="program\SKFW\Framework\Flag.h">
       <Filter>program\Core\Utility</Filter>
     </ClInclude>
     <ClInclude Include="program\SKFW\Debug\Logger.hpp">
       <Filter>program\Core\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Framework\TagManager.hpp">
+      <Filter>program\Core\TagManager</Filter>
+    </ClInclude>
+    <ClInclude Include="program\SKFW\Debug\debug_TagManager.hpp">
+      <Filter>program\Core\DebugUI\tabs</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

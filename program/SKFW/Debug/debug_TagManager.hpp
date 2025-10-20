@@ -1,5 +1,5 @@
 #pragma once
-#include<SKFW/Ecs/TagManager.hpp>
+#include<SKFW/Framework/TagManager.hpp>
 #include<SKFW/Debug/DebugTab.hpp>
 
 class DebugTagManager : public DebugTabBase

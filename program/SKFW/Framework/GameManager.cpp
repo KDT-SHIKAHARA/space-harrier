@@ -3,11 +3,6 @@
 #include<SKFW/Framework/InputManager.hpp>
 #include<SKFW/Debug/DebugUi.hpp>
 
-#include<SKFW/Ecs/GameObjectManager.hpp>
-
-#include<SKFW/Ecs/system_Transform.hpp>
-#include<SKFW/Ecs/system_Render.hpp>
-#include<SKFW/Ecs/system_RigidBody.hpp>
 
 #include<SKFW/Debug/Logger.hpp>
 
@@ -26,14 +21,10 @@ void GameManager::FixedUpdate(float a_fixedDt)
 
 
 
-
-	//	移動処理
-	RigidBodySystem::Instance().FixedUpdate(a_fixedDt);
 }
 
 void GameManager::Render(float a_alpha)
 {
-	RenderSystem::Instance().Render(m_window, a_alpha);
 }
 
 void GameManager::HandleEvents()
@@ -124,8 +115,6 @@ void GameManager::Run()
 		while (time.ShouldFixedUpdate())
 		{
 
-			//	座標系の全体の状態を保存
-			TransformSystem::Instance().SavePrevious();
 
 			//	固定更新
 			this->FixedUpdate(time.FixedDelta());
@@ -150,11 +139,6 @@ void GameManager::Run()
 
 		InputManager::Instance().Update();
 
-		//	削除ループ
-		GameObjectManager::Instance().CleanupDestroyedObjects();
-		TransformSystem::Instance().CleanupDestroyed();
-		RenderSystem::Instance().ProcessExpired();
-		RigidBodySystem::Instance().CleanupDestroyed();
 	}
 
 }

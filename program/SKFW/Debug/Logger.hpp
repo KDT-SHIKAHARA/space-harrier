@@ -81,7 +81,7 @@ private:
         char buffer[1024];
         vsnprintf(buffer, sizeof(buffer), fmt, args);
 
-        std::ofstream logFile("log.txt", std::ios::app);
+        std::ofstream logFile(m_logFileName, std::ios::app);
         if (!logFile) return;
 
         logFile << "[" << GetCurrentTimeString() << "] "
@@ -128,6 +128,6 @@ private:
 #endif // _DEBUG
     }
 
-    static inline std::string m_logFileName;
+    static inline std::string m_logFileName = "Log/log.txt";
     static inline std::mutex m_mtx;
 };

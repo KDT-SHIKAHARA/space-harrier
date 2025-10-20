@@ -150,42 +150,19 @@
     <ClCompile Include="library\ImGui\imgui_tables.cpp" />
     <ClCompile Include="library\ImGui\imgui_widgets.cpp" />
     <ClCompile Include="program\SKFW\Debug\DebugUi.cpp" />
-    <ClCompile Include="program\SKFW\Ecs\base_Drawable.cpp" />
-    <ClCompile Include="program\SKFW\Ecs\comp_Animation.cpp" />
-    <ClCompile Include="program\SKFW\Ecs\comp_Image.cpp" />
-    <ClCompile Include="program\SKFW\Ecs\comp_RigidBody.cpp" />
-    <ClCompile Include="program\SKFW\Ecs\comp_Transform.cpp" />
-    <ClCompile Include="program\SKFW\Ecs\GameObjectManager.cpp" />
-    <ClCompile Include="program\SKFW\Ecs\system_Render.cpp" />
-    <ClCompile Include="program\SKFW\Ecs\system_RigidBody.cpp" />
-    <ClCompile Include="program\SKFW\Ecs\system_Transform.cpp" />
-    <ClCompile Include="program\SKFW\Ecs\TagManager.cpp" />
     <ClCompile Include="program\SKFW\Framework\Anim2D.cpp" />
     <ClCompile Include="program\SKFW\Framework\Database.cpp" />
     <ClCompile Include="program\SKFW\Framework\GameManager.cpp" />
     <ClCompile Include="program\SKFW\Framework\main.cpp" />
+    <ClCompile Include="program\SKFW\Framework\TagManager.cpp" />
     <ClCompile Include="program\SKFW\Framework\TextureResource.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="program\SKFW\Debug\DebugTab.hpp" />
     <ClInclude Include="program\SKFW\Debug\DebugUi.hpp" />
     <ClInclude Include="program\SKFW\Debug\debug_GameManager.hpp" />
-    <ClInclude Include="program\SKFW\Debug\debug_GameObjectManager.hpp" />
     <ClInclude Include="program\SKFW\Debug\debug_TagManager.hpp" />
     <ClInclude Include="program\SKFW\Debug\Logger.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\base_component.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\base_Drawable.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\base_Monobehaviour.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\comp_Animation.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\comp_Image.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\comp_RigidBody.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\comp_Transform.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\GameObject.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\GameObjectManager.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\system_Render.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\system_RigidBody.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\system_Transform.hpp" />
-    <ClInclude Include="program\SKFW\Ecs\TagManager.hpp" />
     <ClInclude Include="program\SKFW\Framework\Anim2D.hpp" />
     <ClInclude Include="program\SKFW\Framework\Database.hpp" />
     <ClInclude Include="program\SKFW\Framework\data_window.h" />
@@ -194,6 +171,7 @@
     <ClInclude Include="program\SKFW\Framework\InputManager.hpp" />
     <ClInclude Include="program\SKFW\Framework\ObjectPool.hpp" />
     <ClInclude Include="program\SKFW\Framework\Singleton.hpp" />
+    <ClInclude Include="program\SKFW\Framework\TagManager.hpp" />
     <ClInclude Include="program\SKFW\Framework\TextureResource.hpp" />
     <ClInclude Include="program\SKFW\Framework\Time.hpp" />
   </ItemGroup>

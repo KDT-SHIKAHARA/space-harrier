@@ -12,13 +12,12 @@
 
 #include<SKFW/Debug/debug_GameManager.hpp>
 #include<SKFW/Debug/debug_TagManager.hpp>
-#include<SKFW/Debug/debug_GameObjectManager.hpp>
+
 
 DebugUI::DebugUI()
 {
 	this->RegisterTab(std::make_unique<DebugGameManager>());
 	this->RegisterTab(std::make_unique<DebugTagManager>());
-	this->RegisterTab(std::make_unique<DebugGameObjectManager>());
 }
 
 /// <summary>
