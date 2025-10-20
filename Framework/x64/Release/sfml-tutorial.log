@@ -1,0 +1,38 @@
+﻿  imgui-SFML.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  DebugUi.cpp
+C:\Users\kirit\source\repos\skfw\program\SKFW\Framework\Time.hpp(34,52): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'program/SKFW/Debug/DebugUi.cpp' をコンパイルしています)
+  
+  base_Drawable.cpp
+  comp_Image.cpp
+  comp_RigidBody.cpp
+  comp_Transform.cpp
+  GameObjectManager.cpp
+C:\Users\kirit\source\repos\skfw\program\SKFW\Ecs\GameObjectManager.cpp(158,32): warning C4267: 'return': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  system_Render.cpp
+  system_RigidBody.cpp
+  system_Transform.cpp
+  TagManager.cpp
+  Anim2D.cpp
+  Database.cpp
+  GameManager.cpp
+C:\Users\kirit\source\repos\skfw\program\SKFW\Framework\Time.hpp(34,52): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'program/SKFW/Framework/GameManager.cpp' をコンパイルしています)
+  
+C:\Users\kirit\source\repos\skfw\program\SKFW\Framework\GameManager.cpp(85,30): warning C4244: '引数': 'float' から 'unsigned int' への変換です。データが失われる可能性があります。
+C:\Users\kirit\source\repos\skfw\program\SKFW\Framework\GameManager.cpp(118,55): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\kirit\source\repos\skfw\program\SKFW\Framework\GameManager.cpp(122,30): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\kirit\source\repos\skfw\program\SKFW\Framework\GameManager.cpp(131,37): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\kirit\source\repos\skfw\program\SKFW\Framework\GameManager.cpp(142,20): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  main.cpp
+  TextureResource.cpp
+     ライブラリ C:\Users\kirit\source\repos\skfw\x64\Release\Framework.lib とオブジェクト C:\Users\kirit\source\repos\skfw\x64\Release\Framework.exp を作成中
+  コード生成しています。
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 5117 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  sfml-tutorial.vcxproj -> C:\Users\kirit\source\repos\skfw\x64\Release\Framework.exe
